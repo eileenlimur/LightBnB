@@ -47,4 +47,4 @@ CREATE TABLE property_reviews (
   reservation_id INTEGER NOT NULL REFERENCES reservations(id) ON DELETE CASCADE,
   rating SMALLINT NOT NULL DEFAULT 0,
   message TEXT
-)
+);
